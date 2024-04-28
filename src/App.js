@@ -19,6 +19,11 @@ function TeamList() {
       })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
+  useEffect(()  => {
+      axios.post('http://localhost:5000/load_players')
+      .then(response => console.log('Players uploaded successfully:', response.data))
+      .catch(error => console.error('Error uploading players:', error));
+  }, []);
 
   return (
     <div>

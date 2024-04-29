@@ -24,6 +24,11 @@ function TeamList() {
       .then(response => console.log('Players uploaded successfully:', response.data))
       .catch(error => console.error('Error uploading players:', error));
   }, []);
+  useEffect(()  => {
+    axios.post('http://localhost:5000/load_contracts')
+    .then(response => console.log('Contracts uploaded successfully:', response.data))
+    .catch(error => console.error('Error uploading Contracts:', error));
+}, []);
 
   return (
     <div>

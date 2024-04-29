@@ -50,6 +50,7 @@ def insert_teams():
     ('Buccaneers', 'Florida', 'Glazer family','https://cdn.freebiesupply.com/images/large/2x/tampa-bay-buccaneers-logo-transparent.png'),
     ('Titans', 'Tennessee', 'Amy Adams Strunk','https://cdn.freebiesupply.com/images/large/2x/tennessee-titans-logo-transparent.png'),
     ('Commanders', 'Maryland', 'Daniel Snyder', 'data:image/png;base64,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'),
+    ('Free Agents', 'N/A', 'N/A', 'N/A'),
 ]
 
     # Connect to SQLite database
@@ -70,6 +71,31 @@ def insert_teams():
 
 
 # Function to establish connection to SQLite database
+@app.route('/<player_name>/drop_to_free_agency', methods=['POST'])
+def drop_to_free_agency(player_name):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    # Get the TeamID for "Free Agency"
+    cursor.execute("SELECT TeamID FROM Teams WHERE TeamName = 'Free Agency'")
+    free_agency_team = cursor.fetchone()
+    if not free_agency_team:
+        return jsonify({"error": "Free Agency team not found"}), 404
+    
+    # Update the player's TeamID to Free Agency and set salary to 0
+    try:
+        cursor.execute("UPDATE Players SET TeamID = ? WHERE Name = ?",
+                       (free_agency_team['TeamID'], player_name))
+        cursor.execute("UPDATE Contracts SET Salary = 0 WHERE PlayerID IN (SELECT PlayerID FROM Players WHERE Name = ?)",
+                       (player_name,))
+        conn.commit()
+    except Exception as e:
+        conn.rollback()
+        return jsonify({"error": str(e)}), 500
+    finally:
+        conn.close()
+
+    return jsonify({"message": f"{player_name} dropped to Free Agency and salary set to $0"}), 200
 
 # Route to display list of teams
 @app.route('/teams')
@@ -101,45 +127,62 @@ def index():
     # Return JSON response
     return jsonify(teams=teams_list)
 
-# Route to add a new team
-@app.route('/add_team', methods=['POST'])
-def add_team():
-    if request.method == 'POST':
-        team_name = request.form['team_name']
-        team_location = request.form['team_location']
-        team_owner = request.form['team_owner']
-        
-        conn = get_db_connection()
-        conn.execute('INSERT INTO Teams (TeamName, TeamLocation, TeamOwner) VALUES (?, ?, ?)',
-                     (team_name, team_location, team_owner))
-        conn.commit()
-        conn.close()
-        return redirect(url_for('index'))
 
-# Route to display players of a specific team
-@app.route('/team/<int:team_id>')
-def show_players(team_id):
-    conn = get_db_connection()
-    team = conn.execute('SELECT * FROM Teams WHERE TeamID = ?', (team_id,)).fetchone()
-    players = conn.execute('SELECT * FROM Players WHERE TeamID = ?', (team_id,)).fetchall()
-    conn.close()
-    return render_template('team.html', team=team, players=players)
-
-# Route to create a new player
-@app.route('/add_player', methods=['POST'])
-def add_player():
-    if request.method == 'POST':
-        first_name = request.form['first_name']
-        last_name = request.form['last_name']
-        position = request.form['position']
-        team_id = request.form['team_id']
+@app.route('/load_players', methods=['POST'])
+def load_players():
+    try:
         
-        conn = get_db_connection()
-        conn.execute('INSERT INTO Players (FirstName, LastName, Position, TeamID) VALUES (?, ?, ?, ?)',
-                     (first_name, last_name, position, team_id))
+       
+        df = pd.read_excel('NFL_Salary_Data.xlsx')
+
+            # Get league ID
+        conn = sqlite3.connect('nfl_salary_cap.db')
+        cursor = conn.cursor()
+        for _, player in df.iterrows():
+            cursor.execute("SELECT TeamID FROM Teams WHERE TeamName = ?", (player['Team'],))
+            team_id_result = cursor.fetchone()
+            
+            team_id = team_id_result[0]
+                # Insert player data into Players table
+            cursor.execute("INSERT INTO Players (Name, Position, TeamID) VALUES (?, ?, ?)",
+                               (player['Name'], player['Position'], team_id))
         conn.commit()
-        conn.close()
-        return redirect(url_for('index'))
+       
+                
+        return jsonify({"message": "Players loaded successfully"}), 201
+       
+    except Exception as e:
+        print("Error:", e)
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/load_contracts', methods=['POST'])
+def load_contracts():
+    try:
+        
+       
+        df = pd.read_excel('NFL_Salary_Data.xlsx')
+
+            # Get league ID
+        conn = sqlite3.connect('nfl_salary_cap.db')
+        cursor = conn.cursor()
+        for _, contract in df.iterrows():
+            cursor.execute("SELECT PlayerID FROM Players WHERE Name = ?", (contract['Name'],))
+            player_id_result = cursor.fetchone()
+            
+            player_id = player_id_result[0]
+                # Insert player data into Players table
+            cursor.execute("INSERT INTO Contracts (PlayerID, Salary) VALUES (?, ?)",
+                               (player_id, contract['Salary']))
+        conn.commit()
+       
+                
+        return jsonify({"message": "Contracts loaded successfully"}), 201
+       
+    except Exception as e:
+        print("Error:", e)
+        return jsonify({"error": str(e)}), 500
+
+
 @app.route('/teams/<team_name>', methods=['GET'])
 def get_team_info(team_name):
     # Establish a connection to the SQLite database
@@ -186,90 +229,6 @@ def get_team_info(team_name):
     conn.close()
 
     return jsonify(team_info)
-@app.route('/load_players', methods=['POST'])
-def load_players():
-    try:
-        
-       
-        df = pd.read_excel('NFL_Salary_Data.xlsx')
-
-            # Get league ID
-        conn = sqlite3.connect('nfl_salary_cap.db')
-        cursor = conn.cursor()
-        for _, player in df.iterrows():
-            cursor.execute("SELECT TeamID FROM Teams WHERE TeamName = ?", (player['Team'],))
-            team_id_result = cursor.fetchone()
-            
-            team_id = team_id_result[0]
-                # Insert player data into Players table
-            cursor.execute("INSERT INTO Players (Name, Position, TeamID) VALUES (?, ?, ?)",
-                               (player['Name'], player['Position'], team_id))
-        conn.commit()
-       
-                
-        return jsonify({"message": "Players loaded successfully"}), 201
-       
-    except Exception as e:
-        print("Error:", e)
-        return jsonify({"error": str(e)}), 500
-
-
-# Route to edit player details
-@app.route('/edit_player/<int:player_id>', methods=['POST'])
-def edit_player(player_id):
-    if request.method == 'POST':
-        first_name = request.form['first_name']
-        last_name = request.form['last_name']
-        position = request.form['position']
-        team_id = request.form['team_id']
-        
-        conn = get_db_connection()
-        conn.execute('UPDATE Players SET FirstName = ?, LastName = ?, Position = ?, TeamID = ? WHERE PlayerID = ?',
-                     (first_name, last_name, position, team_id, player_id))
-        conn.commit()
-        conn.close()
-        return redirect(url_for('index'))
-
-# Route to delete a player
-@app.route('/delete_player/<int:player_id>', methods=['POST'])
-def delete_player(player_id):
-    if request.method == 'POST':
-        conn = get_db_connection()
-        conn.execute('DELETE FROM Players WHERE PlayerID = ?', (player_id,))
-        conn.commit()
-        conn.close()
-        return redirect(url_for('index'))
-
-# Route to add a new contract
-@app.route('/add_contract', methods=['POST'])
-def add_contract():
-    if request.method == 'POST':
-        player_id = request.form['player_id']
-        contract_start = request.form['contract_start']
-        contract_end = request.form['contract_end']
-        salary = request.form['salary']
-        
-        conn = get_db_connection()
-        conn.execute('INSERT INTO Contracts (PlayerID, ContractStart, ContractEnd, Salary) VALUES (?, ?, ?, ?)',
-                     (player_id, contract_start, contract_end, salary))
-        conn.commit()
-        conn.close()
-        return redirect(url_for('index'))
-
-# Route to edit contract details
-@app.route('/edit_contract/<int:contract_id>', methods=['POST'])
-def edit_contract(contract_id):
-    if request.method == 'POST':
-        contract_start = request.form['contract_start']
-        contract_end = request.form['contract_end']
-        salary = request.form['salary']
-        
-        conn = get_db_connection()
-        conn.execute('UPDATE Contracts SET ContractStart = ?, ContractEnd = ?, Salary = ? WHERE ContractID = ?',
-                     (contract_start, contract_end, salary, contract_id))
-        conn.commit()
-        conn.close()
-        return redirect(url_for('index'))
 @app.route('/players', methods=['GET'])
 def get_players():
     conn = get_db_connection()
@@ -286,17 +245,6 @@ def get_players():
     players_list = [dict(player) for player in players]
 
     return jsonify(players_list)
-
-# Route to delete a contract
-@app.route('/delete_contract/<int:contract_id>', methods=['POST'])
-def delete_contract(contract_id):
-    if request.method == 'POST':
-        conn = get_db_connection()
-        conn.execute('DELETE FROM Contracts WHERE ContractID = ?', (contract_id,))
-        conn.commit()
-        conn.close()
-        return redirect(url_for('index'))
-
 
 if __name__ == '__main__':
     app.run(debug=True)

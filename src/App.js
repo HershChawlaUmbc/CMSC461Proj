@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import TeamPage from './TeamPage';
+import Transactions from './Transactions';
 import {
   BrowserRouter as Router,
   Routes,
@@ -48,10 +49,17 @@ function TeamList() {
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<TeamList />} />
-        <Route path="/teams/:teamName" element={<TeamPage />} />
-      </Routes>
+      <div style={{ display: 'flex', flexDirection: 'row' }}>
+        <div style={{ flex: 1 }}>
+          <Routes>
+            <Route path="/" element={<TeamList />} />
+            <Route path="/teams/:teamName" element={<TeamPage />} />
+          </Routes>
+        </div>
+        <div style={{ flex: 1 }}>
+          <Transactions />
+        </div>
+      </div>
     </Router>
   );
 }
